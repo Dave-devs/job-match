@@ -18,7 +18,7 @@ export function calculateMatchScore(
 }
 
 export function getMatchScoreColor(score: number): string {
-  if (score >= 80) return "bg-green-500";
-  if (score >= 50) return "bg-yellow-500";
-  return "bg-red-500";
+  if (score >= 80) return "bg-green-500"; // Green for 80+
+  if (score >= 50) return "bg-yellow-500"; // Yellow for 50-79
+  return "bg-red-500"; // Red for below 50
 }

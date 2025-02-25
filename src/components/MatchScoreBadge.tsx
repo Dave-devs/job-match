@@ -11,7 +11,7 @@ const MatchScoreBadge: React.FC<MatchScoreBadgeProps> = ({ score }) => {
     return (
         <div className="flex flex-col items-center">
             <div className="text-sm font-medium mb-1">Match Score</div>
-            <div className={`text-white ${colorClass} text-sm font-semibold px-2.5 py-0.5 rounded-full flex items-center justify-center w-16 h-6`}>
+            <div className={`text-white text-sm font-semibold px-2.5 py-0.5 rounded-full flex items-center justify-center w-16 h-6 ${colorClass}`}>
                 {score}%
             </div>
             <div className="w-full h-2 bg-gray-200 rounded-full mt-2">
